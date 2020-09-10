@@ -1,12 +1,12 @@
 # build docker image
 
 ```
-docker build . -t tacogan
+docker build . -t tecogan
 ```
 
 # run shell
 ```
-docker run -v $PWD:/opt/app -t tacogan -it bash
+docker run -v $PWD:/opt/app -t tecogan -it bash
 ```
 
 # convert image format to png (with imagemagick)
