@@ -6,7 +6,7 @@ docker build . -t tecogan
 
 # run shell
 ```
-docker run -v $PWD:/opt/app -t tecogan -it bash
+docker run -v "$PWD":/opt/app -it -t tecogan bash
 ```
 
 # convert image format to png (with imagemagick)
